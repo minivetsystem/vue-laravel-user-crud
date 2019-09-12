@@ -26,7 +26,7 @@
                     <div class="row">
                         <div class="col-xs-12 form-group">
                             <label class="control-label">Password</label>
-                            <input type="text" v-model="user.password" class="form-control">
+                            <input type="password" v-model="user.password" class="form-control">
                             <span class="help-block">{{errors.password}}</span>
                         </div>
                     </div>
